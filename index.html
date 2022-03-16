@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div style="text-align:center; margin: 50px 0px;">
+      <h1 class="titulo">Jogo da Forca</h1>
+      <button class="btn" id="iniciar-jogo">JOGAR</button> 
+      <button class="btn" id="reiniciar-jogo">LIMPAR JOGO</button> 
+    </div>
+
+    <div class="principal" style="text-align:center;">
+      <canvas id="forca" height="400px" width="1200px"></canvas> 
+      <ul class="letras" id="linha1">
+        <li class="btn">Q</li>
+        <li class="btn">W</li>
+        <li class="btn">E</li>
+        <li class="btn">R</li>
+        <li class="btn">T</li>
+        <li class="btn">Y</li>
+        <li class="btn">U</li>
+        <li class="btn">I</li>
+        <li class="btn">O</li>
+        <li class="btn">P</li>
+      </ul>
+      <ul class="letras" id="linha2">        
+        <li class="btn">A</li>
+        <li class="btn">S</li>
+        <li class="btn">D</li>
+        <li class="btn">F</li>
+        <li class="btn">G</li>
+        <li class="btn">H</li>
+        <li class="btn">J</li>
+        <li class="btn">K</li>
+        <li class="btn">L</li>
+      </ul>
+      <ul class="letras" id="linha3">
+        <li class="btn">Z</li>
+        <li class="btn">X</li>
+        <li class="btn">C</li>
+        <li class="btn">V</li>
+        <li class="btn">B</li>
+        <li class="btn">N</li>
+        <li class="btn">M</li>
+      </ul>
+    </div> 
+
+    <footer>
+      <p class="challenge">Challenge Oracle ONE - Lógica de Programação!</p>
+      <p class="lingagens">HTML| Canvas| CSS| JavaScript</p>
+      <p class="copyright">Desenvolvido por &copy;Conceição Peres</p>
+      <a href="https://www.linkedin.com/in/conceicao-peres-da-silva" target="_blank"><img src="https://raw.githubusercontent.com/conceicao-peres/ChallengeOneLogicaBr/main/icons/linkedin.png" target="_blank"></a>
+      <a href="https://www.github.com/conceicao-peres" target="_blank"><img src="https://raw.githubusercontent.com/conceicao-peres/ChallengeOneLogicaBr/main/icons/github.png" target="_blank"></a> 
+    </footer>
+
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="forca.js"></script>
+  </body>
+
+</html>

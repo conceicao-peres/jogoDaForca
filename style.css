@@ -1,0 +1,116 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.titulo {
+  width: 30vw;
+  margin: auto;
+  color: gray;
+}
+
+.principal{
+  background-color: lightgray;
+}
+
+.letras{
+  cursor: pointer;
+  display:flex;
+  list-style-type: none;
+}
+
+#linha1{
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+#linha2{
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+}
+#linha3{
+  position: relative;
+  width: 290px;
+  margin: 0 auto;
+ }
+
+.btn {
+  border: 0;
+  color: lightgray;
+  font-weight: bold;
+  background-color: gray;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+  margin: 5px 1.5px;
+}
+
+.btn:hover {
+  border: 0;
+  width: 10%;
+  color: lightgray;
+  font-weight: bold;
+  background-color: gray;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+  margin: 0 1.5px;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  text-align: center;
+  font-size: 13px;
+  line-height: 0.7;
+  margin: 50px;
+ }
+
+footer img{
+  width: 20px;
+}
+
+.challenge{
+  font-weight: bold;
+}
+
+.lingagens{
+  font-weight: bold;
+}
+
+.copyright{
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  #forca{
+    width: 360px;
+    height: 500px;
+  }
+  .btn {
+    border: 0;
+    color: lightgray;
+    font-weight: bold;
+    background-color: gray;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5em;
+    margin: 5px 1.5px;
+  }
+
+  footer{
+    line-height: 0.9; 
+   } 
+}
