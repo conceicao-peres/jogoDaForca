@@ -16,4 +16,4 @@ Além das funcionalidade principais, também conta com a seguintes validações:
 - [x] Não devem ser utilizados números nem letras com acentos ou caracteres especiais
 - [x] Letras erradas devem aparecer na tela
 
-#challengeonelogicabr 
+<a href="https://conceicao-peres.github.io/jogoDaForca/" target="_blank"> DEMO </a>
